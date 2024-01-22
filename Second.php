@@ -3,15 +3,27 @@ if($_REQUEST["q"]!="") //Error!
 {
 if($_REQUEST["q"]=="A")
 {
-echo ("Activated");
+echo ("3");
 }
 else
 {
-echo ("Not activated");
+if($_REQUEST["q"] == "B")
+{
+    echo("4");
+}
+else
+if($_REQUEST["q"] == "C")
+{
+echo ("5");
+}
+else
+{
+echo ("Out of Range");
+}
 }
 }
 else
 {
-    echo("Well no such input");
+    echo("Empty Input");
 }
 ?>
