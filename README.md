@@ -1,3 +1,12 @@
+index.php is the main webpage
+it calls second.php as well
+but, second.php is also an APi, it reponds to the input as well
+for eg: https://devkandel1034.000webhostapp.com/Second.php?q=A
+because second.php is in the same folder ans index.php, we can only writed Second.php?q=A
+
+
+
+
 CORS: Cross Origin Resource Sharing must be enabled for the api to work.
 This must be enabled from the web server.
 In web server, there is a file name htaccess.
