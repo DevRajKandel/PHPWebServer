@@ -2,10 +2,12 @@ index.php is the main webpage
 it calls second.php as well
 but, second.php is also an APi, it reponds to the input as well
 for eg: https://devkandel1034.000webhostapp.com/Second.php?q=A
-because second.php is in the same folder ans index.php, we can only writed Second.php?q=A
 
+because second.php is in the same folder ans index.php, we can only writed Second.php?q=A in the index.php
 
+But if we want to access the Second.php Access endpoint from other apps, the full address is expected.
 
+To allow access from other sources, CORS is enabled as below. As we know, websites with no CORS enabled for all origins(*) might have a problem. We might have to use OAuth
 
 CORS: Cross Origin Resource Sharing must be enabled for the api to work.
 This must be enabled from the web server.
